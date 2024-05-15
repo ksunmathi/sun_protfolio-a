@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #d3cdcd;
+            color: #333;
+    
+        }
+
+        .container {
+            width: 80%;
+            margin:auto;
+            overflow:visible;
+        }
+
+        header {
+            background: #d166cc;
+            color: #ad9393;
+            padding: 20px 0;
+            border-bottom: #77aaff 3px solid;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            margin: 0 15px;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        header h1 {
+            margin: 10px 0 5px 0;
+            padding-top: 20px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        section {
+            padding: 100px 0 20px 0;
+            background: #fff;
+        }
+
+        section h2 {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        .project {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #d3cdcd;
+            border-radius: 5px;
+            background: #f9f9f9;
+        }
+
+        .project h3 {
+            margin: 0 0 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .project-description {
+            margin: 10px 0;
+        }
+
+        .project-technologies,
+        .project-objective,
+        .project-outcomes {
+            margin-bottom: 10px;
+        }
+
+        .project-technologies h4,
+        .project-objective h4,
+        .project-outcomes h4 {
+            margin: 5px 0;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .contact-info a {
+            color: #d166cc;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="resume.html">Resume</a>
+        </nav>
+    </header>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br><br><br><br>
+    <div class="container">
+        <center>
+            <img src="C:\Users\Lenovo\OneDrive\Pictures\sunpic.jpg" alt="Profile Picture" class="profile-pic" width="200px" height="200px">
+            <h1>Sunmathi</h1>
+            <p>MCA Student at KGISL Institute of Information Management</p></center>
+        </div>
+    <section id="about">
+            <div class="container">
+            <h2>About Me</h2>
+            <p>I am currently pursuing my Master of Computer Applications (MCA) at KGISL Institute of Information Management (KGISL-IIM). My academic journey has given me a strong foundation in software development, programming, and information technology. I am passionate about exploring new technologies and using my skills to develop innovative solutions. In addition to my studies, I enjoy participating in tech workshops and seminars to further enhance my knowledge. My goal is to become a proficient software developer and contribute to impactful projects in the tech industry.</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Online Bookstore Management System</h3>
+                <div class="project-objective">
+                    <h4>Objective:</h4>
+                    <p>To develop an online platform that allows users to browse, search, and purchase books, as well as manage their accounts and orders.</p>
+                </div>
+                <div class="project-technologies">
+                        <h4>Technologies Used:</h4>
+                      <p><strong>Frontend:</strong> HTML, CSS, JavaScript<br>
+                        <strong>Backend:</strong> PHP<br>
+                        <strong>Database:</strong> MySQL<br>
+                        <strong>Additional:</strong> Bootstrap for responsive design</p>
+                </div>
+                <div class="project-description">
+                    <h4>Description:</h4>
+                    <p>This project involved creating a comprehensive online bookstore management system where users can create accounts, browse through various book categories, search for specific books, and add them to their shopping cart. The system also includes an admin panel where administrators can manage inventory, process orders, and handle user inquiries.</p>
+                </div>
+                <div class="project-outcomes">
+                    <h4>Outcomes:</h4>
+                    <p>The project successfully provided a user-friendly interface for customers and an efficient management system for administrators. It improved the customer experience by offering a seamless online shopping process and streamlined the backend operations for managing book inventories and orders.</p>
+                </div>
+            </div>
+            <div class="project">
+                <h3>Project 2: Student Attendance Management System</h3>
+                <div class="project-objective">
+                    <h4>Objective:</h4>
+                    <p>To develop a web application that automates the process of tracking student attendance and generating reports.</p>
+                </div>
+                <div class="project-technologies">
+                    <h4>Technologies Used:</h4>
+                    <p><strong>Frontend:</strong> HTML, CSS, JavaScript<br>
+                    <strong>Backend:</strong> Node.js<br>
+                    <strong>Database:</strong> MongoDB<br>
+                    <strong>Additional:</strong> Express.js for server-side routing</p>
+                </div>
+                <div class="project-description">
+                    <h4>Description:</h4>
+                    <p>The Student Attendance Management System was designed to simplify attendance tracking for educational institutions. The application allows teachers to mark attendance, view attendance records, and generate attendance reports for individual students or entire classes. Students and parents can also log in to view attendance records.</p>
+                </div>
+                <div class="project-outcomes">
+                    <h4>Outcomes:</h4>
+                    <p>The system reduced the time and effort required for teachers to manage attendance manually. It provided accurate and up-to-date attendance records, which improved transparency and accountability. The system also allowed for easy access to attendance data by students and parents, enhancing communication and engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:ksunmathi3@gmail.com">ksunmathi3@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">Your LinkedIn</a></p>
+                <p>GitHub: <a href="https://github.com/your-github-username" target="_blank">Your GitHub</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sunmathi. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
